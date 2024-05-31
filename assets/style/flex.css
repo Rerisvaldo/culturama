@@ -50,7 +50,14 @@
     flex-grow: 1;
     max-width: 400px;
 }
-
+.rodape{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.rodape__logo{
+    align-self: end;
+}
 
 @media (min-width: 720px){
     /* menu */
@@ -98,5 +105,8 @@
     .menu__item:nth-child(5){
         order: 2;
     }
+
+    
+    
 
 }
